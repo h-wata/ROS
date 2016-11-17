@@ -1,0 +1,14 @@
+# Part1: the goal, to be sent by client
+duration time_to_wait
+---
+# Part2: the result
+# How much time we waited
+duration time_elapsed
+# How many updates we provided along the way
+uint32 updates_sent
+---
+# Part3: the feedback
+duration time_elapsed
+duration time_remaining
+
+
